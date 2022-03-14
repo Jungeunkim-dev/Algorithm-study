@@ -21,7 +21,7 @@ public class Main{
         for(int k=j+1;k<N;k++){
           if(arr[i]+arr[j]+arr[k]>max&&arr[i]+arr[j]+arr[k]<=M)
             max=arr[i]+arr[j]+arr[k];
-        }.
+        }
       }
     }
     System.out.print(max);
